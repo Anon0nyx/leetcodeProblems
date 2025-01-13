@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the executable
 add_executable(testSolution testSolution.cxx Solution.cxx)
+add_executable(benchmark benchmark.cxx)
 
 # Include directories
 include_directories(${PROJECT_SOURCE_DIR})
