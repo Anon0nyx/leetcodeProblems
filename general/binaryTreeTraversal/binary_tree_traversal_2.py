@@ -35,9 +35,9 @@ root.left.right = TreeNode(5)
 root.right.right = TreeNode(6)
 
 # Pre-order traversal
-print("Pre-order traversal:")
-preorder_traversal(root)
-print()
+#print("Pre-order traversal:")
+#preorder_traversal(root)
+#print()
 
 # In-order traversal
 print("In-order traversal:")
@@ -45,6 +45,6 @@ inorder_traversal(root)
 print()
 
 # Post-order traversal
-print("Post-order traversal:")
-postorder_traversal(root)
-print()
+#print("Post-order traversal:")
+#postorder_traversal(root)
+#print()

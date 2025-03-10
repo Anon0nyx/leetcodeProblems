@@ -1,0 +1,18 @@
+def fib(n: int) -> int:
+	if n == 1:
+		return 1
+	if n == 0:
+		return 0
+	return fib(n-1) + fib(n-2)
+
+def iterativeFib(n: int) -> int:
+	curr = 3
+	prev = 2
+	for i in range(4, n):
+		temp = curr
+		curr = temp + prev
+		prev = temp
+	return curr
+
+print(fib(10))
+print(iterativeFib(10))
