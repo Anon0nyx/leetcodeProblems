@@ -21,10 +21,8 @@ class Solution:
 				overstep = (asciiVal + rot) - ord('Z')
 				newLetter = ord("A") + overstep - 1
 				encoded += chr(newLetter)
-			
 			else:
 				encoded += chr(asciiVal + rot)
-
 		return encoded
 
 	def decode(self) -> str:
